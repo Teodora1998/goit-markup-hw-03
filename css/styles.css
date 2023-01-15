@@ -125,21 +125,22 @@ ul {
 
 /* page section styling */
 
-.page-section {
-}
-
 .page-list-item {
   display: inline-block;
   flex-direction: row;
-  margin-right: 30px;
+  margin: 0 15px;
+  justify-content: space-between;
 }
 
 .page-sec-subtitle {
   font-weight: 700;
+  margin-bottom: 10px;
 }
 
 .page-sec-text {
   color: var(--text-color);
+  font-weight: 400;
+  font-size: 14px;
   line-height: 1.71;
 }
 
